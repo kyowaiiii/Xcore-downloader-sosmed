@@ -1,1 +1,1 @@
-# Xcore-downloader-sosmed
+# pliss bro jangan di jual ulang 
