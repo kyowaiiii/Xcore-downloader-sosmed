@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
         break;
       case 'tiktok': 
         // untuk mendapatkan api key nya bisa ke api.ferdev.my.id 
-        const ferdevKey = fdv_koTuPN5V6kVypV4Pz8HA2A || "free";
+        const ferdevKey = process.env.FERDEV_API_KEY || "fdv_koTuPN5V6kVypV4Pz8HA2A";
         endpoint = `https://api.ferdev.my.id/downloader/tiktok?link=${encodedLink}&apikey=${ferdevKey}`; 
         break;
       case 'ytmp4': 
